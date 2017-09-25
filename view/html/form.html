@@ -1,0 +1,17 @@
+<div class="formUrl">
+	<form ng-submit="searchLocale()" class="form-group"">
+		<label for="urlInput">Insert url:</label>
+		<input type="text" name="formUrl" ng-model="url" required="true"  id="urlInput"/> <input type="submit" name="btn_form" value="Send" class="btn">
+		<div class="row">
+		    <div class="col-lg-3">
+		    	<div class="space"></div>
+		    </div>
+			<div class="col-lg-6">
+				<div class="alert alert-danger mt-10" ng-show="showError" style="margin-top: 10px;">
+				  <div class="error"><label class="ng-binding">{{error}}</label></div>
+				</div>
+		    </div>
+		</div>
+	</form>
+</div>
+

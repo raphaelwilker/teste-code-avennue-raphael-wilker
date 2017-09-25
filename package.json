@@ -1,0 +1,20 @@
+{
+  "name": "test-ui-challenge",
+  "version": "1.0.0",
+  "description": "Test from ui-challenge by Raphael Wilker",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://RaphaelWilker@bitbucket.org/ac-recruitment/ui-challenge.git"
+  },
+  "author": "Raphael Wilker Mendes Araújo",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ac-recruitment/ui-challenge#readme"
+}
